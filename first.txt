@@ -1,0 +1,51 @@
+
+roscore - runs basic ros services.
+
+rosls - lists files and folders in current directory (ls).
+
+roscd - changes directory to a package.	
+
+rosed - opens a file (in nano or vi) by specifying the package then file; saves navigating.
+
+rostopic - gives information regarding all topics currently published to or subscribed to. pub will send a message to a topic
+
+rospack - gives information regarding a package, such as dependencies.
+
+rospy - python api.
+
+roscpp - c++ api.
+
+rosnode - gives information regarding all running nodes.
+
+rosrun - runs a node from a given package.
+
+rosmsg - gives information regarding messages such as the type.
+
+rosservice - similar to rostopic; gives information regarding online services. call command similar to pub.
+
+rosparam - allows you to manipulate data on the ros parameter server. e.g. change background colour in turtlesim.
+
+roslaunch - tools for launching multiple nodes.
+
+roscp - copies a file from a package.
+
+rosbag - tools for recording from rostopics and playback.
+
+rosout - logging mechanism.
+
+roswtf - used for debugging in ros.
+
+rqt_graph 
+
+rqt_console
+
+catkin_make - builds code in a catkin workspace.
+
+
+
+Sourcing a workspace:
+$ cd ~/catkin_ws
+$ source devel/setup.bash
+$ roscd beginner_tutorials
+
+
